@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@0;1&display=swap');
+
+h1 , h4{
+    margin: 5px;
+    padding: 0px;
+}
+
+
+body {
+    background: #0c132b;
+    font-family: "PT Serif Caption", serif;
+    margin: 20vh;
+    margin-top: 10vh;
+}
+
+.hero {
+    display: flex;
+    background: url("20240515_062347.jpg");
+    background-position: center;
+    flex-direction: row;
+    border: 3px solid #eb4034;;
+    border-radius: 20px;
+}
+.hero-text {
+    box-sizing: border-box ;
+    justify-content: center;
+    padding: 3vh;
+    width: 60%;
+    padding-left: 25vh;
+    padding-right: 10vh;
+    border-radius: 20px;
+
+    font-size: 5vh;
+    text-shadow: 2px 0 #0c132b, -2px 0 #0c132b, 0 2px #0c132b, 0 -2px #0c132b,
+    1px 1px #0c132b, -1px -1px #0c132b, 1px -1px #0c132b, -1px 1px #0c132b;;
+    
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+.hero-image {
+    padding: 3vh;
+    width: 40%;
+
+}
+
+.about-me {
+    
+}
