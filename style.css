@@ -1,48 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@0;1&display=swap');
-
-h1 , h4{
-    margin: 5px;
-    padding: 0px;
+* {
+    margin: 0;
 }
-
 
 body {
     background: #0c132b;
     font-family: "PT Serif Caption", serif;
-    margin: 20vh;
-    margin-top: 10vh;
 }
 
 .hero {
+    padding-top: 12.5vh;
+    padding-bottom: 10vh;
+    background-color: black;
+}
+
+
+.profile {
+    margin-left: 30vh;
+    
+    background: #46537c;
+    padding: 30px;
+    border-radius: 20px;
+    width: 30%;
+    height: 50vh;
+}
+
+.profile h1 ,h3{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.contact_button {
+    margin-top: 3vh;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #eb4034;
+    height: 7.5vh;
+    width: 25vh;
+}
+
+.about_me h2 {
     display: flex;
-    background: url("20240515_062347.jpg");
-    background-position: center;
-    flex-direction: row;
-    border: 3px solid #eb4034;;
-    border-radius: 20px;
-}
-.hero-text {
-    box-sizing: border-box ;
+    margin: 40%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     justify-content: center;
-    padding: 3vh;
-    width: 60%;
-    padding-left: 25vh;
-    padding-right: 10vh;
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #eb4034;
     border-radius: 20px;
-
-    font-size: 5vh;
-    text-shadow: 2px 0 #0c132b, -2px 0 #0c132b, 0 2px #0c132b, 0 -2px #0c132b,
-    1px 1px #0c132b, -1px -1px #0c132b, 1px -1px #0c132b, -1px 1px #0c132b;;
-    
-    background: transparent;
-    backdrop-filter: blur(10px);
-}
-.hero-image {
-    padding: 3vh;
-    width: 40%;
-
-}
-
-.about-me {
-    
+    border: solid 2px aliceblue;
 }
