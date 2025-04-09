@@ -24,7 +24,7 @@ body {
     height: 50vh;
 }
 
-.profile h1 ,h3{
+.profile h1 ,.profile h3{
     padding: 0;
     margin: 0;
     
@@ -41,16 +41,47 @@ body {
     width: 25vh;
 }
 
-.about_me h2 {
-    display: flex;
-    margin: 40%;
+.about_me {
     margin-top: 5vh;
-    margin-bottom: 5vh;
-    justify-content: center;
-    padding: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+}
+
+.about {
+    padding: 20px;
+    margin: 3vh;
+    margin-left: 6vh;
+    margin-right: 6vh;
+    border-radius: 20px;
+    background-color: #46537c;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.about_image {
+    border-radius: 20px;
+    height: 35vh;
+}
+.about_text_left {
+    display: flex;
+    flex-direction: row;
+    
+}
+.title {
+    margin-bottom: 8px;
+    
+    text-align: center;
+    
+}
+
+.title span {
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    
+    font-weight: 700;
+    font-size: 18px;
+
     background-color: #eb4034;
     border-radius: 20px;
-    border: solid 2px aliceblue;
 }
