@@ -4,6 +4,7 @@
 
 body {
     background: #0c132b;
+    color: #faf4d7;
     font-family: "PT Serif Caption", serif;
 }
 
@@ -24,10 +25,39 @@ body {
     height: 50vh;
 }
 
-.profile h1 ,.profile h3{
+.profile h1 ,.profile h3, .profile h3 u {
     padding: 0;
     margin: 0;
     
+}
+.profile h1 {
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.email-contact {
+    display: inline-flex;
+    text-align: center;
+
+    margin-top: 1vh;
+
+    --s: 0.1em;   /* the thickness of the line */
+    --c: #eb4034; /* the color */
+    
+    color: #0000;
+    padding-bottom: var(--s);
+    background: 
+      linear-gradient(90deg,var(--c) 50%,#faf4d7 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+  }
+.email-contact:hover {--_p: 100%}
+
+.material-symbols-outlined {
+    margin: 0;
+    padding: 0;
 }
 
 .contact_button {
@@ -57,6 +87,13 @@ body {
     flex-direction: row;
 }
 
+.about_text {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20vh;
+    margin-left: 5vh;
+}
+
 .about_image {
     border-radius: 20px;
     height: 35vh;
@@ -68,9 +105,7 @@ body {
 }
 .title {
     margin-bottom: 8px;
-    
     text-align: center;
-    
 }
 
 .title span {
