@@ -20,7 +20,7 @@ h1 {
     color: #0000;
     padding-bottom: var(--s);
     background: 
-    linear-gradient(90deg,var(--c) 50%,#faf4d7 0) calc(100% - var(--_p,0%))/200% 100%,
+    linear-gradient(90deg,var(--c) 50%,#eb4034 0) calc(100% - var(--_p,0%))/200% 100%,
       linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
     -webkit-background-clip: text,padding-box;
             background-clip: text,padding-box;
@@ -93,7 +93,45 @@ h1 {
     border-radius: 999rem;
 }
 
-/* Projects */
+/* Work */
+
+.work_division {
+    display: flex;
+    --count: 4;
+    --gapper: 1rem;
+
+    -webkit-column-count: var(--count);
+    -moz-column-count: var(--count);
+    column-count: var(--count);
+
+    -webkit-column-gap: var(--gapper);
+    -moz-column-gap: var(--gapper);
+    column-gap: var(--gapper);
+    margin: 2rem;
+}
+
+.work_iten {
+    display: inline-block;
+    width: 100%;
+}
+
+.work_iten img {
+    display:block;
+    width: 100%;
+    border-radius: 1rem;
+    
+    background-color: rgb(35, 36, 37);
+    transition: 0.5s;
+    border: solid rgb(15, 15, 17) 4px;
+}
+.work_iten img:hover {
+    border: solid #eb4034 4px;
+}
+
+.work_iten h3 p {
+    margin: 0;
+    padding: 0;
+}
 
 
 /* About Me */
